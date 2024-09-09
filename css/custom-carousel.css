@@ -1,0 +1,42 @@
+.carousel-item {
+    height: 80vh;
+    /*min-height: 350px;*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: rgb(235, 245, 250);*/
+
+
+    /*This is Custom Carousel*/
+    /*background-color: rgb(247, 244, 251);*/
+    /*text-shadow: 1px 1px 5px #fff;*/
+}
+
+/*.carousel-item #web {
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}*/
+
+/*.carousel-item #mobile {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+}*/
+
+/*.carousel-item #itinfra {
+    opacity: 0.4;
+    width: 32%;
+    margin-top: 7rem;
+}*/
+
+.carousel-caption {
+    /*text-shadow: 3px 3px 10px #000;*/
+    color: #fff
+}

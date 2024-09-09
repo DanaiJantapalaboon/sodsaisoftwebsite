@@ -1,0 +1,55 @@
+/* ใส่ active content ไปแล้ว
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+}
+*/
+
+.dropdown-menu img {
+  width: 20%;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(255, 63, 129);
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+
+
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar {
+    height: 100px;
+    border-bottom: 4px solid rgb(255, 63, 129);
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+}
+
+.navbar .navbar-nav .nav-link {
+  /*position: relative;*/
+}
+
+.navbar .navbar-nav .nav-link::after {
+  transition: transform .5s;
+  /*
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+  transition: all 0.5s;*/
+}
+
+/*
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+*/

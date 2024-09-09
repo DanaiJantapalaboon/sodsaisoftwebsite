@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | SodsaiSoftware</title>
+
+    <!--Bootstrap CSS Plugin-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!--Bootstrap Javascript Plugin-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap" rel="stylesheet">
+
+    <!--CSS custom-navbar-->
+    <link rel="stylesheet" href="css/custom-body.css">
+    <link rel="stylesheet" href="css/custom-navbar.css">
+    <link rel="stylesheet" href="css/custom-carousel.css">
+    <link rel="stylesheet" href="css/custom-service.css">
+    <link rel="stylesheet" href="css/custom-banner.css">
+    <link rel="stylesheet" href="css/custom-motto.css">
+    <link rel="stylesheet" href="css/custom-contact.css">
+    <link rel="stylesheet" href="css/custom-footer.css">
+    <link rel="stylesheet" href="css/custom-blog.css">
+
+    <!--JQuery Footer-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+
+    <!--Vanta.js Animation-->
+    <!--Web Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+    <!--ITinfra Carousel-->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+
+    <!--Mobile Carousel-->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5 bg-white" id="navbar">
+            <a class="navbar-brand"><img src="image/logo/logo.png" width="60%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler9" aria-controls="navbarToggler9" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarToggler9">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">หน้าหลัก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">บทความ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ผลงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anchor-contact">ติดต่อเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">เกี่ยวกับเรา</a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav sm-icons ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-line"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+    
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">เปลี่ยนภาษา</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><img src="icon/lang-thai.png"> ไทย</a>
+                            <a class="dropdown-item" href="#"><img src="icon/lang-eng.png"> English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="web"><!--<img src="image/carousel/webdev.png" id="web">-->
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Web Development</h1>
+                        <h4>รับออกแบบเว็บไซต์ทุกประเภท เว็บแอพพลิเคชั่น ตามความต้องการของลูกค้า</h4>
+                        <a class="btn btn-danger btn-lg px-5 my-5 mb-5 me-sm-3" href="#features">Learn More</a>
+                    </div>
+                </div>
+        
+              <div class="carousel-item" id="mobile"><!--<img src="image/carousel/mobileapp.png" id="mobile">-->
+                  <div class="carousel-caption">
+                      <h1 class="display-2">Mobile Application</h1>
+                      <h4>รับทำแอพพลิเคชั่นมือถือตามความต้องการ ทั้งระบบ iOS และ Android</h4>
+                      <a class="btn btn-danger btn-lg px-5 my-5 mb-5 me-sm-3" href="#features">Learn More</a>
+                  </div>
+              </div>
+        
+              <div class="carousel-item" id="itinfra"><!--<img src="image/carousel/itinfra.png" id="itinfra">-->
+                  <div class="carousel-caption">
+                      <h1 class="display-2">IT Infrastructure Consultant</h1>
+                      <h4>ให้คำปรึกษา วางแผน ดูแลและติดตั้งระบบไอทีในองค์กร โดยทีมงานผู้มีประสบการณ์ในสายงานระบบจากบริษัทชั้นนำของประเทศ</h4>
+                      <a class="btn btn-danger btn-lg px-5 my-5 me-sm-3" href="#features">Learn More</a>
+                  </div>
+              </div>
+            </div>
+            <script src="js/vantajs-animation.js"></script>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="marquee">
+            <div class="marquee-container">
+                <p class="fw-bold">Welcome to Sodsaisoft.com
+                <i class="bi bi-telephone px-5"> +6600 1234567</i>
+                <i class="bi bi-mailbox px-5"><a href="mailto:webmaster@devDD.com"> webmaster@sodsaisoft.com</a></i>
+                <i class="bi bi-calendar4-event px-5"><a href="www.google.com"> Upcoming Event................</a></i></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="service py-5">
+        <div class="container px-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h2 class="fw-bolder text-center pb-5" id="title">บริการของเรา</h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/mobile.png"></div>
+                    <h2 class="h5 fw-bold">รับเขียนแอพพลิเคชั่นมือถือ</h2>
+                    <p class="mb-0">รับเขียน Mobile Application ทุกระบบงาน ทั้งระบบปฏิบัติการ Android และ iOS ตอบโจทย์ทุกความต้องการของลูกค้า</p>
+                </div>
+
+                <div class="col-lg-4 mx-auto">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/world.png"></div>
+                    <h2 class="h5 fw-bold">รับเขียนเว็บไซต์</h2>
+                    <p class="mb-0">รับเขียน Web Application, Website, Landing Page พร้อมจดโดเมน สำหรับธุรกิจขนาดเล็ก ห้างร้าน หรืออื่นๆ ที่เกี่ยวข้อง</p>
+                </div>
+
+                <div class="col-lg-4 mx-auto">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/software.png"></div>
+                    <h2 class="h5 fw-bold">รับเขียนโปรแกรมทั่วไป</h2>
+                    <p class="mb-0">รับเขียนโปรแกรมทั่วไปภายในองค์กร ห้างร้าน หรือธุรกิจขนาดเล็ก (SME) ด้วย C# .NET WindowsApplication</p>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-lg-4">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/infra.png"></div>
+                    <h2 class="h5 fw-bold">วางระบบไอทีในองค์กร</h2>
+                    <p class="mb-0">รับวางระบบ Network และ Server ทั้งระบบสำหรับธุรกิจขนาดปานปลางหรือขนาดเล็ก  ดูแลระบบไอทีคอมพิวเตอร์ครบวงจร แบบรายเดือน รายปี ทั้งภาครัฐและเอกชน</p>
+                </div>
+
+                <div class="col-lg-4 mx-auto">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/iot.png"></div>
+                    <h2 class="h5 fw-bold">Internet of Things</h2>
+                    <p class="mb-0">รับเขียนโปรแกรม IoT จัดทำอุปกรณ์และออกแบบระบบ Smart Home, Smart Factory หรืออื่นๆที่เกี่ยวข้องสำหรับองค์กรขนาดปานกลางหรือขนาดเล็ก</p>
+                </div>
+
+                <div class="col-lg-4 mx-auto">
+                    <div class="feature rounded-3 mb-3"><img src="image/service/book.png"></div>
+                    <h2 class="h5 fw-bold">ติวเตอร์วิชาคณิตศาสตร์-ฟิสิกส์</h2>
+                    <p class="mb-0">รับสอนวิชาคณิตศาสตร์-ฟิสิกส์ สำหรับนักเรียนทุกระดับชั้นตั้งแต่ประถมศึกษา-มัธยมศึกษา ทั้งแบบเดี่ยวและแบบกลุ่ม ให้คำปรึกษาด้านการเรียน โดยติวเตอร์ที่มีประสบการณ์</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="motto py-5 mb-5" style="background-color: rgb(247, 244, 251)">
+        <div class="motto-container px-5 text-center">
+            <h5>สดใสซอฟท์ เป็นทีมงานสตาร์ทอัพใหม่ที่ดำเนินกิจการด้านซอฟท์แวร์แบบครบวงจรโดยคนไทย<br>
+                และมุ่งมั่นเป็นส่วนหนึ่งในการขับเคลื่อนโครงสร้างพื้นฐานด้านไอทีของประเทศ<br><br>
+                "Reality leaves a lot to the imagination" - John Lennon</h5>
+            <p>Sutthiphong Kawichai (Benz) / CEO, Sodsaisoft</p>
+        </div>
+    </section>
+
+
+
+    <section class="blog py-5">
+        <div class="container px-5">
+            <div class="col-lg-12">
+                <h2 class="text-center pb-5" id="title">บทความสดใสซอฟท์</h2>
+            </div>
+
+            <div class="card shadow-sm">
+                <h5 class="card-header text-center" style="background-color: rgb(247, 244, 251)">Blog List</h5>
+                <div class="card-body border-bottom">
+                  <a href="#"><h5 class="card-title">What is "printf"</h5></a>
+                  <p class="card-text">คำสั่ง "printf" ที่แสดงผลออกทางหน้าจอ terminal สีดำๆ โดยภาษา C มีประวัติมาอย่างยาวนาน แล้วทำไมต้องมี "f" ด้วยนะ print เฉยๆไม่ได้เหรอ ?</p>
+                </div>
+                <div class="card-body">
+                    <a href="#"><h5 class="card-title">CSS Gradient แบบง่ายๆ</h5></a>
+                    <p class="card-text">ผู้ที่เริ่มทำเว็บคงจะนั่งนึกกันอยู่นานว่าพื้นหลังจะเป็นแบบไหนดี ดังนั้นเรามีเทคนิคง่ายๆและวิธีทำมาฝาก ไปอ่านต่อเลยย</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="anchor-contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h2 class="fw-bolder text-center" id="title">ติดต่อเรา</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 px-5 my-5">
+                    <legend class="fw-bold" id="enquiry">CONTACT</legend>
+                    <br>
+    
+                    <div class="mt-4">
+    
+                        <h5>
+                            สดใสซอฟท์ (Sodsaisoft)
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/contact.png">&nbsp;&nbsp;สุทธิพงศ์ กาวิชัย (Founder, Lead Programmer)</h6>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/contact.png">&nbsp;&nbsp;ดนัย จันทพลาบูรณ์ (Co-Founder)</h6>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/contact.png">&nbsp;&nbsp;ทิตติยา ภัทรมิตรภาคิน (Co-Founder)</h6>
+    
+                            <br>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/phone.png">&nbsp;&nbsp;เบอร์โทรศัพท์ : 000-0000000 (K.สุทธิพงศ์)</h6>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/email.png">&nbsp;&nbsp;E-Mail : sutthiphong.k@sodsaisoft.com</h6>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/line.png">&nbsp;&nbsp;Line ID : </h6>
+                            <h6>&nbsp;&nbsp;&nbsp;<img src="image/contact/facebook.png">&nbsp;&nbsp;Facebook : sodsaisoft</h6>
+    
+                            <br>
+    
+                            <legend class="fw-bold" id="enquiry">SERVICES</legend>
+                            <p>
+                               - เขียนแอพพลิเคชั่นมือถือ Android, iOS<br>
+                               - เขียนเว็บไซต์ หรือเว็บแอพพลิเคชั่น<br>
+                               - เขียนโปรแกรมทั่วไป Windows Application<br>
+                               - วางระบบไอทีในองค์กร Network, Server หรืออื่นๆที่เกี่ยวข้อง<br>
+                               - วางระบบ IoT ทั้ง Smart Home, Smart Office สำหรับธุรกิจขนาดปานกลาง-เล็ก<br>
+                               - ติวเตอร์วิชาคณิตศาสตร์-ฟิสิกส์ แบบเดี่ยวหรือแบบกลุ่ม
+                            </p>
+                        </h5>
+                    </div>
+                </div>
+                <!-- CONTACT BOX RIGHT -->
+                <div class="col-lg-6 px-5 my-5">
+                    <fieldset>
+                        <legend class="fw-bold" id="enquiry">ENQUIRY FORM</legend>
+                        <form action="" method="POST">
+    
+                            <!-- Input Email -->
+                            <label for="inputEmail1" class="form-label mt-4">อีเมลล์</label>
+                            <input type="email" class="form-control" id="inputEmail1" placeholder="กรุณากรอกอีเมลล์" required>
+                        
+                            <!-- Input Contact Name -->
+                            <label for="inputName" class="form-label mt-2">ชื่อผู้ติดต่อ</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="กรุณากรอกชื่อผู้ติดต่อ" required>
+                        
+                            <!-- Input Services -->
+                            <label class="form-label mt-4">กรุณาเลือกบริการที่ต้องการ</label>
+                            <select class="form-select" name="ชนิดของงาน">
+                                <option>Mobile Application</option>
+                                <option>Website Development</option>
+                                <option>Windows Application</option>
+                                <option>IT Infrastructure</option>
+                                <option>Internet of Things</option>
+                                <option>Math-Physics Tutor</option>
+                            </select>
+                        
+                            <!-- Input Job Description -->
+                            <label class="form-label mt-4">รายละเอียดของงาน</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        
+                            <!-- Input File -->
+                            <label class="form-label mt-4">แนบรายละเอียดของงาน (ถ้ามี)</label>
+                            <input class="form-control" type="file">
+                        
+                            <br>
+                        
+                            <!-- Button -->
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                            <button type="reset" class="btn btn-danger">Reset</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Mobile Application Development</a></li>
+                            <li><a href="#">Web Design & Web Application</a></li>
+                            <li><a href="#">Windows Application (Desktop)</a></li>
+                            <li><a href="#">IT Infrastructure Consultant</a></li>
+                            <li><a href="#">Internet of Things</a></li>
+                            <li><a href="#">Tutor Physics-Mathematics</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 item text">
+                        <h3>สดใสซอฟท์ (Sodsaisoft)</h3>
+                        <p>
+                            dddddddddddddddddddddddddddddddddddddd<br>
+    
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-line"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a></div>
+                </div>
+                <p class="copyright">Copyright © 2022 Sodsaisoft, All Right Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    
+</body>
+</html>
