@@ -1,0 +1,27 @@
+.marquee-container a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.marquee {
+  width: 100%;
+  /*background-color: rgb(247, 244, 251);*/
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee div {
+  animation: animate 30s linear infinite;
+  padding-left: 100%;
+  display: inline-block;
+}
+
+.marquee div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes animate {
+  100%  {
+    transform: translate(-100%, 0);
+  }
+}

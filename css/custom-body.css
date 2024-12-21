@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#title {
+    font-weight: bold;
+    color: rgb(255, 63, 129);
+}
+
+.btn {
+    background: rgb(255, 63, 129);
+}

@@ -1,0 +1,13 @@
+table tr td a {
+    color: #000;
+}
+
+table tr td a:hover {
+    color: rgb(255, 63, 129);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
